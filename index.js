@@ -5,9 +5,9 @@ var iterativeLog = function (array) {
 };
 
 var iterate = function(callback) {
-    let array = ["dog", "fish", "cat"];
-    array.forEach(callback);
-    return array;
+    let example = ["dog", "fish", "cat"];
+    example.forEach(callback);
+    return example;
 };
 
 var doToArray = function(array, callback) {
